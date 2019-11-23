@@ -1,8 +1,6 @@
 package com.chixing.dao;
 
 import com.chixing.entity.CustFollowBean;
-import com.chixing.entity.Customer;
-import com.chixing.entity.Like;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
 

@@ -1,11 +1,11 @@
 server:
-  port: 8080
+  port: 8090
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/friend?characterEncoding=utf8&amp;useSSL=false&amp;useServerPreStmts=true&amp;serverTimezone=UTC
+    url: jdbc:mysql://47.107.174.74:3306/friend?characterEncoding=utf8&amp;useSSL=false&amp;useServerPreStmts=true&amp;serverTimezone=UTC
     username: root
-    password: 12345678
+    password: '!Sg2017'
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
     initialSize: 5
@@ -24,6 +24,9 @@ spring:
     view:
       prefix: /WEB-INF/jsp/
       suffix: .jsp
+  jpa:
+    hibernate:
+      ddl-auto: update
 
 logging:
   file: F:\java\speech\myLogger.log

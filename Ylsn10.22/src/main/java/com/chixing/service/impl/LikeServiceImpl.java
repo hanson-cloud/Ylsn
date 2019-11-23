@@ -2,8 +2,6 @@ package com.chixing.service.impl;
 
 import com.chixing.dao.LikeDao;
 import com.chixing.entity.CustFollowBean;
-import com.chixing.entity.Customer;
-import com.chixing.entity.Like;
 import com.chixing.service.LikeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

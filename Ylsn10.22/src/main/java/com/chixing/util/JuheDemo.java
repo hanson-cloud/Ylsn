@@ -14,7 +14,6 @@ import java.util.Map;
 
 import net.sf.json.JSONObject;
 
-
 public class JuheDemo {
     public static final String DEF_CHATSET = "UTF-8";
     public static final int DEF_CONN_TIMEOUT = 30000;
